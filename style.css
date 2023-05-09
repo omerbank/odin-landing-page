@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
@@ -75,4 +77,57 @@ a,
 img {
     height: auto;
     width: 500px;
+}
+
+.information {
+    padding: 48px;
+}
+
+.information-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+    margin-bottom: 8px;
+}
+
+.undertext {
+    width: 150px;
+    text-align: center;
+}
+
+.quote {
+    height: 500px;
+    background: #E5E7EB;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    width: 785px;
+}
+
+.quote-credit {
+    font-size: 20px;
+    color: black;
+    margin-left: 500px;
 }
